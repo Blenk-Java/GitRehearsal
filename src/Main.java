@@ -12,5 +12,7 @@ public class Main {
         myIntArray[3] = 99;
         myIntArray[4] = 1;
         myIntArray[5] = 193;
+
+        Arrays.stream(myIntArray).sorted().forEach(System.out::println);
     }
 }
