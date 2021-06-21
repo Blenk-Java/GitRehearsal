@@ -17,6 +17,8 @@ public class Main {
         System.out.println("The sorted list is: ");
         Arrays.stream(myIntArray).sorted().forEach(System.out::println);
 
+        System.out.println("testing dog");
+
 
     }
 }
