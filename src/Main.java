@@ -13,6 +13,10 @@ public class Main {
         myIntArray[4] = 1;
         myIntArray[5] = 193;
 
+
+        System.out.println("The sorted list is: ");
         Arrays.stream(myIntArray).sorted().forEach(System.out::println);
+
+
     }
 }
